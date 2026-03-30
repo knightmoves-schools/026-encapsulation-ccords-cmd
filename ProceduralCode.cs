@@ -19,5 +19,6 @@ public class Rectangle{
 public Rectangle(int length, int height){
 return length * height;
 }
+    new Rectangle(3,4);
 }
 //should pass the variables into the Rectangle as constructor arguments
