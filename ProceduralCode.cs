@@ -16,9 +16,5 @@ public class Rectangle{
     public int CalculateArea(){
         return length * height;
     }
-public Rectangle(int length, int height){
-return length * height;
+public Rectangle(int length, int height){}
 }
-    new Rectangle(3,4);
-}
-//should pass the variables into the Rectangle as constructor arguments
