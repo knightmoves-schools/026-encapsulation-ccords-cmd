@@ -1,22 +1,17 @@
 ﻿namespace knightmoves;
-public class ProceduralCode
+public class Rectangle
 {
-    public int length = 5;
-    public int height = 10;
+    private int length;
+    private int height;
 
-    public int CalculateArea(int length, int height){
-        return length * height;
+    public Rectangle(int length, int height)
+    {
+        this.length = length;
+        this.height = height;
     }
-}
 
-public class Rectangle{
-    public int length = 5;
-    public int height = 10;
-
-    public int CalculateArea(){
-        return length * height;
+    public int CalculateArea()
+    {
+        return this.length * this.height;
     }
-public Rectangle(int length, int height){
-   return length * height; 
-}
 }
