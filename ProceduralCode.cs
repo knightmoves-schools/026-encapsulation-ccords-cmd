@@ -16,5 +16,7 @@ public class Rectangle{
     public int CalculateArea(){
         return length * height;
     }
-public Rectangle(int length, int height){}
+public Rectangle(int length, int height){
+   return length * height; 
+}
 }
